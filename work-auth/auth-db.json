@@ -1,0 +1,113 @@
+{
+  "users": [
+    {
+      "id": "47d04209f5ab008cdd4a1b3ac70f8426",
+      "name": "Parent User",
+      "email": "parent-1780379274057@example.com",
+      "authProvider": "email",
+      "role": "parent",
+      "avatarInitials": "PU",
+      "passwordSalt": "ec6b1cf7a1c461a33f0804b0288a3f66",
+      "passwordHash": "94aed4338b99d9846b63a3ed6e1935fb672cca4be9fa757b7452b7d71ac4f7c4",
+      "createdAt": "2026-06-02T05:47:54.182Z"
+    },
+    {
+      "id": "a4ec2834cd0cb0501e2f62bacaa76769",
+      "name": "Real Parent",
+      "email": "real-auth-1780379358140@example.com",
+      "authProvider": "email",
+      "role": "parent",
+      "avatarInitials": "RP",
+      "passwordSalt": "341c325b2d44d46f1695b304eea14cba",
+      "passwordHash": "beb57d3af6316be1259c66d6181965fc1c0899c084b377f70c1051e347f1b52f",
+      "createdAt": "2026-06-02T05:49:18.670Z"
+    },
+    {
+      "id": "b960f4357a5c1928e95a22c2c3d7cfb4",
+      "name": "Real Parent Updated",
+      "email": "real-auth-1780379384584@example.com",
+      "authProvider": "email",
+      "role": "parent",
+      "avatarInitials": "RP",
+      "passwordSalt": "ad05b78ca0d6c5dde83eb61e12f73f1c",
+      "passwordHash": "4d76c8161a4fce59157d672fe5c3069a24c4ff3300fc6502b51ed03756bdf8d3",
+      "createdAt": "2026-06-02T05:49:45.035Z"
+    },
+    {
+      "id": "ff8a8deaedd17f88df255c21be989bea",
+      "name": "Browser Parent",
+      "email": "browser-real-1780379467677@example.com",
+      "authProvider": "email",
+      "role": "parent",
+      "avatarInitials": "BP",
+      "passwordSalt": "68acfe69be0d004aabacab16bf36db8c",
+      "passwordHash": "5191e0cf640f9c3ef19b7f238e8eadb58b5ff020b420691a486647af2c51af69",
+      "createdAt": "2026-06-02T05:51:08.058Z"
+    }
+  ],
+  "sessions": [
+    {
+      "token": "45ed56813542a5eb0b56df39c6cf44e2230b7b98dfd16b5695eb82a9c6a39471",
+      "userId": "47d04209f5ab008cdd4a1b3ac70f8426",
+      "createdAt": "2026-06-02T05:47:54.183Z",
+      "expiresAt": "2026-06-16T05:47:54.183Z"
+    },
+    {
+      "token": "30dcfd0a91e08c55730bc568d0959d848c41a63e501af17b3e0831156371b648",
+      "userId": "47d04209f5ab008cdd4a1b3ac70f8426",
+      "createdAt": "2026-06-02T05:47:54.295Z",
+      "expiresAt": "2026-06-16T05:47:54.295Z"
+    },
+    {
+      "token": "b6427b49e4bc3e0683574cd9aecf1d63e216d06d25aabcfa4fb305e66d30de64",
+      "userId": "a4ec2834cd0cb0501e2f62bacaa76769",
+      "createdAt": "2026-06-02T05:49:18.670Z",
+      "expiresAt": "2026-06-16T05:49:18.670Z"
+    },
+    {
+      "token": "5da163c9febe916e8f0d322fc88d333e4355be27c7b541ab7bbe2d89942ed5a1",
+      "userId": "b960f4357a5c1928e95a22c2c3d7cfb4",
+      "createdAt": "2026-06-02T05:49:45.035Z",
+      "expiresAt": "2026-06-16T05:49:45.035Z"
+    }
+  ],
+  "invites": {
+    "47d04209f5ab008cdd4a1b3ac70f8426": [
+      {
+        "name": "Husband",
+        "email": "husband-1780379274299@example.com",
+        "relationship": "husband",
+        "canView": true,
+        "canEdit": false,
+        "id": "046bfe6ed3c6370f1ef9920d57d1de93",
+        "status": "pending",
+        "invitedAt": "2026-06-02T05:47:54.300Z"
+      }
+    ],
+    "a4ec2834cd0cb0501e2f62bacaa76769": [],
+    "b960f4357a5c1928e95a22c2c3d7cfb4": [
+      {
+        "name": "Husband",
+        "email": "husband-real-auth-1780379384584@example.com",
+        "relationship": "husband",
+        "canView": true,
+        "canEdit": false,
+        "id": "11bdf958e1f9cd572bc577e05c6dca01",
+        "status": "pending",
+        "invitedAt": "2026-06-02T05:49:45.178Z"
+      }
+    ],
+    "ff8a8deaedd17f88df255c21be989bea": [
+      {
+        "name": "Husband",
+        "email": "husband-browser-real-1780379467677@example.com",
+        "relationship": "husband",
+        "canView": true,
+        "canEdit": false,
+        "id": "7baf2e6d8f30eb9dd6360d25a6599135",
+        "status": "pending",
+        "invitedAt": "2026-06-02T05:51:08.399Z"
+      }
+    ]
+  }
+}
